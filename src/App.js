@@ -40,7 +40,7 @@ export default function App() {
         return (
           <span
             onClick={() => onClickHandler(item)}
-            style={{ padding: "1rem", fontSize: "30px" }}
+            style={{ padding: "1rem", fontSize: "40px", cursor: "pointer" }}
             key={item}
           >
             {item}
